@@ -14,6 +14,7 @@
 		CCF9EFC11C56581E007CFCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF9EFBF1C56581E007CFCFF /* LaunchScreen.storyboard */; };
 		CCF9EFCC1C56581E007CFCFF /* DemoGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9EFCB1C56581E007CFCFF /* DemoGitHubTests.swift */; };
 		CCF9EFD71C56581E007CFCFF /* DemoGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9EFD61C56581E007CFCFF /* DemoGitHubUITests.swift */; };
+		CCF9EFE51C56591A007CFCFF /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9EFE41C56591A007CFCFF /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CCF9EFD21C56581E007CFCFF /* DemoGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9EFD61C56581E007CFCFF /* DemoGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitHubUITests.swift; sourceTree = "<group>"; };
 		CCF9EFD81C56581E007CFCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9EFE41C56591A007CFCFF /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CCF9EFBD1C56581E007CFCFF /* Assets.xcassets */,
 				CCF9EFBF1C56581E007CFCFF /* LaunchScreen.storyboard */,
 				CCF9EFC21C56581E007CFCFF /* Info.plist */,
+				CCF9EFE41C56591A007CFCFF /* DemoViewController.swift */,
 			);
 			path = DemoGitHub;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF9EFE51C56591A007CFCFF /* DemoViewController.swift in Sources */,
 				CCF9EFB91C56581E007CFCFF /* ViewController.swift in Sources */,
 				CCF9EFB71C56581E007CFCFF /* AppDelegate.swift in Sources */,
 			);
